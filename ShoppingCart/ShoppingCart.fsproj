@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Domain.fs" />
+    <Compile Include="StateOperations.fs" />
+    <Compile Include="CartOperations.fs" />
+    <None Include="Scratchpad.fsx" />
+  </ItemGroup>
+
+  <ItemGroup />
+
+</Project>
